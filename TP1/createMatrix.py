@@ -46,7 +46,7 @@ themes_file.close()
 for i in matrix:
 	for j in matrix[i]:
 		mat_file.write(str(matrix[i][j]))
-		mat_file.write("\t")
+		mat_file.write(";")
 	mat_file.write("\n")
 
 
